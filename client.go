@@ -14,7 +14,7 @@ import (
 )
 
 type SSOAcehResult struct {
-	ID              string    `json:"id" bson:"id"`
+	SessionID       string    `json:"id" bson:"id"`
 	Nama            string    `json:"nm" bson:"nm"`
 	Email           string    `json:"em" bson:"em"`
 	EmailAlternatif string    `json:"ea" bson:"ea"`
