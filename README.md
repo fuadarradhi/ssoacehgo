@@ -23,7 +23,7 @@ func GetToken(c *x.Ctx) {
 		res, _ := sso.ParseToken(token)
     
 		// gunakan hasil parse
-		fmt.Println(res.ID)
+		fmt.Println(res.SessionID)
 		fmt.Println(res.Nama)
 		fmt.Println(res.Email)
 		fmt.Println(res.EmailAlternatif)
